@@ -1,0 +1,14 @@
+#
+# trace07.txt - Forward SIGINT only to foreground job.
+#
+/bin/echo -e tsh> ./src/myspin 4 \046
+./src/myspin 4 &
+
+/bin/echo -e tsh> ./src/myspin 5
+./src/myspin 5 
+
+SLEEP 2
+INT
+
+/bin/echo tsh> jobs
+jobs

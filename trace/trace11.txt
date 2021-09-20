@@ -1,8 +1,8 @@
 #
 # trace11.txt - Forward SIGINT to every process in foreground process group
 #
-/bin/echo -e tsh> ./mysplit 4
-./mysplit 4 
+/bin/echo -e tsh> ./src/mysplit 4
+./src/mysplit 4 
 
 SLEEP 2
 INT

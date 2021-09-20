@@ -1,0 +1,14 @@
+#
+# trace08.txt - Forward SIGTSTP only to foreground job.
+#
+/bin/echo -e tsh> ./src/myspin 4 \046
+./src/myspin 4 &
+
+/bin/echo -e tsh> ./src/myspin 5
+./src/myspin 5 
+
+SLEEP 2
+TSTP
+
+/bin/echo tsh> jobs
+jobs

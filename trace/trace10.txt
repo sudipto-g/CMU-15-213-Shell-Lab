@@ -1,8 +1,8 @@
 #
 # trace10.txt - Process fg builtin command. 
 #
-/bin/echo -e tsh> ./myspin 4 \046
-./myspin 4 &
+/bin/echo -e tsh> ./src/myspin 4 \046
+./src/myspin 4 &
 
 SLEEP 1
 /bin/echo tsh> fg %1
