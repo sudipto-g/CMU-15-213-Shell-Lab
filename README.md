@@ -1,5 +1,6 @@
 # CMU 15-213 Tiny Shell
 This is an attempt to implement CMU 15-213's (Introduction to Computer Systems) Shell Lab.  
+More details can be found [here](https://www.cs.cmu.edu/afs/cs/academic/class/15213-s02/www/applications/labs/lab5/shlab.html)  
   
 
 ## Directory Structure:  
